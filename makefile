@@ -1,4 +1,4 @@
-flags = -lm
+flags = -lm -g
 
 lab.out : calculating_value.o clipping_expressions.o main.o post_conversion.o post_notation.o stack.o
 	gcc calculating_value.o clipping_expressions.o main.o post_conversion.o post_notation.o stack.o -o lab.out $(flags)
